@@ -1,6 +1,23 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('./navbar.css');
+@import url('./hompage.css');
+
+
+
+@font-face {
+  font-family: 'quicksand';
+  src: url('./fonts/Quicksand/Quicksand-VariableFont_wght.ttf');
+}
+
+
+.font-primary {
+  font-family: 'quicksand';
+}
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -17,11 +34,5 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  
 }
