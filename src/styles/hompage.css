@@ -13,4 +13,16 @@
 }
 
 
+.slide-show-image-holder {
+    @apply 
+    w-full h-56 bg-slate-500
+    ;
+}
+
+.slide-show-image-body {
+    @apply
+    flex
+    h-full bg-slate-500
+    ;
+}
 
