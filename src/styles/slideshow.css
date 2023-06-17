@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slideshow-image-layer {
+  @apply h-full w-full absolute;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slideshow-right-arrow {
+  @apply h-full w-1/12 absolute right-0 flex items-center justify-center;
+}
+
+.slideshow-left-arrow {
+  @apply h-full w-1/12 absolute left-0 flex items-center justify-center;
+}

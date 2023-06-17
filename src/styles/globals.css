@@ -1,23 +1,18 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('./navbar.css');
-@import url('./hompage.css');
-
-
-
+@import url("./navbar.css");
+@import url("./hompage.css");
+@import url("./slideshow.css");
 @font-face {
-  font-family: 'quicksand';
-  src: url('./fonts/Quicksand/Quicksand-VariableFont_wght.ttf');
+  font-family: "quicksand";
+  src: url("./fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
 }
-
 
 .font-primary {
-  font-family: 'quicksand';
+  font-family: "quicksand";
 }
-
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -34,5 +29,4 @@
 }
 
 body {
-  
 }
