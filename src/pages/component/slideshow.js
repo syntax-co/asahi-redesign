@@ -33,6 +33,31 @@ const SlideshowArrows = () => {
   );
 };
 
+
+const SlideShowDots = ({images}) => {
+
+  const Dot = () => {
+    return(
+      <div className="w-2 h-2 mx-1 rounded-lg  bg-white">
+
+      </div>
+    )
+  }
+
+  return(
+    <div className="w-full h-4 absolute bottom-0 flex items-center justify-center">
+      {
+        images.map((item,index) => {
+          return(
+            <Dot key={index} />
+          )
+        })
+      }
+    </div>
+  )
+}
+
+
 const Slideshow = ({ images }) => {
   const [layerOneImage, setLayerOneImage] = useState(0);
   const [layerTwoImage, setLayerTwoImage] = useState(1);
@@ -63,6 +88,7 @@ const Slideshow = ({ images }) => {
       ></motion.div>
 
       <SlideshowArrows />
+      <SlideShowDots images={images} />
     </div>
   );
 };
