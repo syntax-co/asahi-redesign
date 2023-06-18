@@ -19,7 +19,7 @@ const MobileMenuButton = ({ open, setOpen }) => {
         animate={{ opacity: open ? 0 : 1 }}
       >
         <IconContext.Provider value={{ color: "#77cc6d" }}>
-          <BiMenuAltRight size={50} />
+          <BiMenuAltRight size={40} />
         </IconContext.Provider>
       </motion.div>
 
