@@ -7,9 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens:{
+        'sm':'250px'
+      },
       colors:{
-        'sushiGreen':'#77cc6d',
-        'darkBlue':'#27313d'
+        'sushiGreen':'#4ade80',
+        'darkBlue':'#27313d',
+        'lighterBlue':'#44576e'
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

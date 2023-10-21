@@ -1,10 +1,10 @@
-
+import MapComponent from "./component/map";
 
 const Location = () => {
 
     return(
-        <div>
-
+        <div className="location-main-body">
+            {/* <MapComponent /> */}
         </div>
     )
 }

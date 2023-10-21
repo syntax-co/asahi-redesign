@@ -3,20 +3,14 @@
 "Home":{
     "path":"/"
 },
-"Restaurant Menu":{
-    "path":""
+"Menu":{
+    "path":"menu"
 },
 "Location":{
-    "path":""
+    "path":"location"
 },
 "Gallery":{
-    "path":""
-},
-"Order Online":{
-    "path":""
-},
-"Contact Us":{
-    "path":""
+    "path":"#photo-gallery"
 }
 
 }

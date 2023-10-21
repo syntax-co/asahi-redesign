@@ -1,0 +1,622 @@
+{
+    "Asahi Special Rolls": {
+        "Asahi Roll": {
+            "price": "$15.95",
+            "description": "tuna, salmon, tai, cucumber, avocado, crab, crunchy tempura & special sauce",
+            "rawFish": "true"
+        },
+        "Dragon Egg": {
+            "price": "$15.95",
+            "description": "egg omelet, shrimp tempura, cucumber, avocado, special sauce",
+            "rawFish": "false"
+        },
+        "John Hancock": {
+            "price": "$15.95",
+            "description": "white tuna, crab, cucumber, avocado, masago, lettuce, wrapped in soy paper with special sauce",
+            "rawFish": "true"
+        },
+        "Caterpillar": {
+            "price": "$15.95",
+            "description": "eel, cucumber, avocado, topped with wasabi mayo",
+            "rawFish": "false"
+        },
+        "Latino Loco": {
+            "price": "$15.95",
+            "description": "smoked salmon, jalapeno, avocado, cilantro, chili mayo, sesame seeds, special sauce",
+            "rawFish": "true"
+        },
+        "Avocado Torch": {
+            "price": "$15.95",
+            "description": "spicy tuna & scallions, topped with torched avocado, tempura crunch, eel sauce, wasabi mayo",
+            "rawFish": "true"
+        },
+        "Green Turtle": {
+            "price": "$15.95",
+            "description": "eel, shrimp, cucumber, eel sauce, wasabi mayo, special sauce",
+            "rawFish": "false"
+        },
+        "Salmon Sensei": {
+            "price": "$15.95",
+            "description": "eel, salmon, spicy sesame oil, sweet soy, cilantro",
+            "rawFish": "true"
+        },
+        "Smokey Bear": {
+            "price": "$15.95",
+            "description": "seel, smoked salmon, cream cheese, avocado, cucumber, sesame seeds, sweet soy & wasabi mayo",
+            "rawFish": "false"
+        },
+        "Marshall Roll": {
+            "price": "$12.95",
+            "description": "smoked salmon, eel, cucumber, potato crunch, spicy sauce",
+            "rawFish": "false"
+        },
+        "Arizona Summer": {
+            "price": "$12.95",
+            "description": "tuna, tempura, yellow tail, avocado, cucumber, chili oil",
+            "rawFish": "true"
+        },
+        "Bulgogi Roll": {
+            "price": "$12.95",
+            "description": "seasoned beef, cucumber, green onions",
+            "rawFish": "false"
+        },
+        "Loyola Roll": {
+            "price": "$12.95",
+            "description": "spicy tuna roll topped with potato crunch & spicy mayo",
+            "rawFish": "true"
+        },
+        "May Flower": {
+            "price": "$15.95",
+            "description": "shrimp tempura, scallion, tuna, sweet chili sauce",
+            "rawFish": "true"
+        },
+        "Fire Dragon": {
+            "price": "$15.95",
+            "description": "tuna wrapped with tempura crunch, scallions, spicy mayo, special spicy sauce",
+            "rawFish": "true"
+        },
+        "Rogers Park": {
+            "price": "$15.95",
+            "description": "shrimp tempura, bulgogi, kimchi, potato crunch, green onion, special sauce",
+            "rawFish": "false"
+        },
+        "Florida Dragon": {
+            "price": "$15.95",
+            "description": "salmon wrapped with shrimp, tempura, cucumber, avocado, spicy mayo",
+            "rawFish": "true"
+        },
+        "Grand Canyon": {
+            "price": "$18.95",
+            "description": "california roll topped with unagi, snapper, cheese, tempura, masago, green onions & special sauce",
+            "rawFish": "true"
+        },
+        "Rainbow Dragon": {
+            "price": "$18.95",
+            "description": "tuna, white tuna, shrimp, salmon, shrimp tempura, avocado, cucumber, tobiko & spicy sauce",
+            "rawFish": "true"
+        },
+        "Volcano Roll": {
+            "price": "$12.95",
+            "description": "spicy tuna, tempura crunch, cucumber, jalapeno, chili",
+            "rawFish": "true"
+        },
+        "White Dragon": {
+            "price": "$15.95",
+            "description": "white tuna wrapped with avocado, cucumber, wasabi mayo",
+            "rawFish": "true"
+        },
+        "Orange Sunshine": {
+            "price": "$15.95",
+            "description": "shrimp tempura, salmon, avocado, cucumber, orange tobiko, special sauce",
+            "rawFish": "true"
+        },
+        "Black Dragon": {
+            "price": "$15.95",
+            "description": "eel, shrimp tempura, avocado, cucumber, special sauce",
+            "rawFish": "false"
+        },
+        "Crunch Crunch Big Roll": {
+            "price": "$18.95",
+            "description": "shrimp tempura, crab, salmon, asparagus, avocado, cucumber, Japanese pickle, potato crunch, special sauce",
+            "rawFish": "true"
+        },
+        "Green Dragon": {
+            "price": "$14.95",
+            "description": "avocado wrapped with shrimp tempura, cucumber, special sauce",
+            "rawFish": "false"
+        }
+    },
+    "Sushi Rolls": {
+        "California Roll": {
+            "price": "$5.95",
+            "description": "crab, cucumber, avocado (add masago for $2)",
+            "rawFish": "false"
+        },
+        "Tuna Roll": {
+            "price": "$6.95",
+            "description": "tuna",
+            "rawFish": "true"
+        },
+        "Salmon Roll": {
+            "price": "$6.95",
+            "description": "salmon",
+            "rawFish": "true"
+        },
+        "Spicy California Roll": {
+            "price": "$6.95",
+            "description": "crab, cucumber, avocado, spicy sauce",
+            "rawFish": "false"
+        },
+        "Crunchy California Roll": {
+            "price": "$7.95",
+            "description": "Deep fried cali roll w/ tempura crunch, special sauce",
+            "rawFish": "false"
+        },
+        "Spicy Tuna Roll": {
+            "price": "$7.95",
+            "description": "tuna, cucumber, spicy sauce",
+            "rawFish": "true"
+        },
+        "Tuna Avocado Crunch": {
+            "price": "$8.50",
+            "description": "tuna, tempura crunch, special sauce",
+            "rawFish": "true"
+        },
+        "Spicy Salmon Roll": {
+            "price": "$7.95",
+            "description": "salmon, spicy sauce",
+            "rawFish": "true"
+        },
+        "Salmon Avocado Roll": {
+            "price": "$7.95",
+            "description": "salmon, avocado",
+            "rawFish": "true"
+        },
+        "Crunchy Salmon Roll": {
+            "price": "$8.50",
+            "description": "salmon, tempura crunch, special sauce",
+            "rawFish": "true"
+        },
+        "Boston Roll": {
+            "price": "$7.95",
+            "description": "tuna, lettuce, cucumber, avocado",
+            "rawFish": "true"
+        },
+        "Shrimp Tempura Roll": {
+            "price": "$7.95",
+            "description": "shrimp tempura, avocado, cucumber, special sauce",
+            "rawFish": "false"
+        },
+        "Chicago Crazy Roll": {
+            "price": "$10.95",
+            "description": "tuna, red snapper, salmon, masago, crab, avocado, cucumber",
+            "rawFish": "true"
+        },
+        "Spider Roll": {
+            "price": "$8.95",
+            "description": "soft shell crab, cucumber, avocado, tobiko, spicy mayo, eel sauce",
+            "rawFish": "false"
+        },
+        "Futomaki Roll": {
+            "price": "$7.50",
+            "description": "crab, cucumber, spinach, kampyo, egg, Japanese pickle, carrot",
+            "rawFish": "false"
+        },
+        "Philadelphia Roll": {
+            "price": "$7.95",
+            "description": "smoked salmon, cream cheese, avocado",
+            "rawFish": "false"
+        },
+        "Eel Roll": {
+            "price": "$7.95",
+            "description": "eel, cucumber, special sauce",
+            "rawFish": "false"
+        },
+        "Miami Roll": {
+            "price": "$9.50",
+            "description": "deep fried roll with shrimp, crab, cream cheese, avocado, cucumber, spicy mayo",
+            "rawFish": "false"
+        }
+    },
+    "Vegetarian Rolls": {
+        "Cucumber Roll": {
+            "price": "$4.95",
+            "description": "",
+            "rawFish": "false"
+        },
+        "Avocado Roll": {
+            "price": "$5.95",
+            "description": "",
+            "rawFish": "false"
+        },
+        "Japanese Pickle Roll": {
+            "price": "$4.95",
+            "description": "",
+            "rawFish": "false"
+        },
+        "Seaweed Salad Roll": {
+            "price": "$5.95",
+            "description": "",
+            "rawFish": "false"
+        },
+        "Sweet Potato Roll": {
+            "price": "$6.95",
+            "description": "",
+            "rawFish": "false"
+        },
+        "AAC Roll": {
+            "price": "$6.95",
+            "description": "avocado, asparagus, cucumber",
+            "rawFish": "false"
+        }
+    },
+    "Hand Rolls": {
+        "Tuna Hand Roll": {
+            "price": "$6.95",
+            "description": "",
+            "rawFish": "true"
+        },
+        "Eel Hand Roll": {
+            "price": "$7.95",
+            "description": "",
+            "rawFish": "false"
+        },
+        "Salmon Hand Roll": {
+            "price": "$6.95",
+            "description": "",
+            "rawFish": "true"
+        },
+        "Spicy Tuna Hand Roll": {
+            "price": "$7.95",
+            "description": "",
+            "rawFish": "true"
+        }
+    },
+    "Nigiri & Sashimi": {
+        "Maguro (tuna)": {
+            "price": "$6.00",
+            "description": "",
+            "rawFish": "true"
+        },
+        "Shiro Maguro (white tuna)": {
+            "price": "$6.00",
+            "description": "",
+            "rawFish": "true"
+        },
+        "Nama Sake (salmon)": {
+            "price": "$6.00",
+            "description": "",
+            "rawFish": "true"
+        },
+        "Saba (mackerel)": {
+            "price": "$6.00",
+            "description": "",
+            "rawFish": "true"
+        },
+        "Ika (squid)": {
+            "price": "$6.00",
+            "description": "",
+            "rawFish": "true"
+        },
+        "Hamachi (yellow tail)": {
+            "price": "$7.00",
+            "description": "",
+            "rawFish": "true"
+        },
+        "Tai (red snapper)": {
+            "price": "$6.00",
+            "description": "",
+            "rawFish": "false"
+        },
+        "Hokkigai (surf clam)": {
+            "price": "$6.00",
+            "description": "",
+            "rawFish": "false"
+        },
+        "Ebi (shrimp)": {
+            "price": "$6.00",
+            "description": "",
+            "rawFish": "false"
+        },
+        "Unagi (freshwater eel)": {
+            "price": "$6.00",
+            "description": "",
+            "rawFish": "false"
+        },
+        "Sake Kunsel (smoked salmon)": {
+            "price": "$6.00",
+            "description": "",
+            "rawFish": "false"
+        },
+        "Tako (octopus)": {
+            "price": "$6.00",
+            "description": "",
+            "rawFish": "false"
+        },
+        "Kanikama (crab stick)": {
+            "price": "$6.00",
+            "description": "",
+            "rawFish": "false"
+        },
+        "Tamago (egg omelet)": {
+            "price": "$6.00",
+            "description": "",
+            "rawFish": "false"
+        },
+        "Ikura (salmon roe)": {
+            "price": "$9.00",
+            "description": "",
+            "rawFish": "true"
+        },
+        "Tobiko (fish roe)": {
+            "price": "$8.00",
+            "description": "",
+            "rawFish": "true"
+        },
+        "Black Tobiko (fish roe)": {
+            "price": "$8.00",
+            "description": "",
+            "rawFish": "true"
+        },
+        "Wasabi Tobiko (fish roe)": {
+            "price": "$8.00",
+            "description": "",
+            "rawFish": "true"
+        },
+        "Yellow Tobiko (fish roe)": {
+            "price": "$8.00",
+            "description": "",
+            "rawFish": "true"
+        }
+    },
+    "Appetizers": {
+        "Shrimp Shumai": {
+            "price": "$7.95",
+            "description": "steamed dumplings",
+            "rawFish": "false"
+        },
+        "Asparagus Beef": {
+            "price": "$10.95",
+            "description": "Asparagus wrapped with beef, grilled with teriyaki sauce",
+            "rawFish": "false"
+        },
+        "Vegetable Gyoza": {
+            "price": "$5.95",
+            "description": "Japanese dumpling",
+            "rawFish": "false"
+        },
+        "Pork Gyoza": {
+            "price": "$6.95",
+            "description": "Japanese dumpling",
+            "rawFish": "false"
+        }
+    },
+    "Sides & Salads": {
+        "Miso Soup": {
+            "price": "$2.95",
+            "description": "with tofu & green onion",
+            "rawFish": "false"
+        },
+        "Edamame": {
+            "price": "$5.95",
+            "description": "green soybeans, lightly salted",
+            "rawFish": "false"
+        },
+        "Steam Rice": {
+            "price": "$2.95",
+            "description": "",
+            "rawFish": "false"
+        },
+        "Seaweed Salad": {
+            "price": "$7.95",
+            "description": "flavored and cured seaweed with cucumber slides",
+            "rawFish": "false"
+        },
+        "House Salad": {
+            "price": "$4.95",
+            "description": "green salad served with ginger dressing",
+            "rawFish": "false"
+        },
+        "Japanese Pickle": {
+            "price": "$4.95",
+            "description": "",
+            "rawFish": "false"
+        }
+    },
+    "Sushi & Maki Combos": {
+        "Sushi Combo A": {
+            "price": "$16.95",
+            "description": "7 pc assorted sushi with california roll",
+            "rawFish": "false"
+        },
+        "Sushi Combo B": {
+            "price": "$25.95",
+            "description": "12 pc assorted sushi with california or spicy tuna roll",
+            "rawFish": "false"
+        },
+        "American Sashimi": {
+            "price": "$20.95",
+            "description": "4pc tuna, 4pc salmon, & california roll",
+            "rawFish": "false"
+        },
+        "Maki Combo A": {
+            "price": "$16.95",
+            "description": "california roll, tuna roll, shrimp tempura roll",
+            "rawFish": "false"
+        },
+        "Maki Combo B": {
+            "price": "$18.95",
+            "description": "Spicy tuna, philadelphia roll, spicy salmon roll",
+            "rawFish": "false"
+        },
+        "Sashimi Special": {
+            "price": "$26.95",
+            "description": "12 sashimi pieces of: 3 tuna, 3 salmon, 3 red snapper, 3 white tuna",
+            "rawFish": "false"
+        }
+    },
+    "Party Plates": {
+        "Party Plate A": {
+            "price": "$38.00",
+            "description": "2 tuna, 2 salmon, 2 shrimp, 2 red snapper, california roll, spicy tuna roll, shrimp tempura roll",
+            "rawFish": "false"
+        },
+        "Party Plate B": {
+            "price": "$65.00",
+            "description": "4 tuna, 4 salmon, 4 white tuna, 4 unagi, 4 shrimp, philadelphia roll, california roll, spicy tuna roll, spider roll",
+            "rawFish": "false"
+        },
+        "Party Plate C": {
+            "price": "$90.00",
+            "description": "5 tuna, 5 salmon, 5 white tuna, 5 unagi, 5 red snapper, black dragon roll, california roll, spicy tuna roll, shrimp tempura roll, tuna roll, salmon roll",
+            "rawFish": "false"
+        }
+    },
+    "Desserts": {
+        "Ice Cream": {
+            "price": "$4.50",
+            "description": "green tea or red bean",
+            "rawFish": "false"
+        },
+        "Mochi Ice Cream": {
+            "price": "$6.95",
+            "description": "choose 2 flavors: mango, strawberry, green tea",
+            "rawFish": "false"
+        }
+    },
+    "Japanese Noodles": {
+        "Shoyu Ramen": {
+            "price": "$11.95",
+            "description": "Japanese style ramen, egg, vegetables (add chicken, beef, or shrimp for $3)",
+            "rawFish": "false"
+        },
+        "Oden Udon": {
+            "price": "$12.95",
+            "description": "udon noodle & broth, fishcakes, vegetables",
+            "rawFish": "false"
+        },
+        "Spicy Ramen": {
+            "price": "$9.95",
+            "description": "ramen with vegetables (add chicken, beef, or shrimp for $3)",
+            "rawFish": "false"
+        },
+        "Chicken Udon": {
+            "price": "$12.95",
+            "description": "udon noodle & broth, chicken, vegetables",
+            "rawFish": "false"
+        },
+        "Spicy Seafood Ramen": {
+            "price": "$13.95",
+            "description": "ramen with assorted seafood",
+            "rawFish": "false"
+        },
+        "NabeYaki Udon": {
+            "price": "$13.95",
+            "description": "udon noodle & broth, shrimp tempura, chicken, egg, vegetables",
+            "rawFish": "false"
+        },
+        "Vegetable Udon": {
+            "price": "$11.95",
+            "description": "udon noodle & broth, tofu, vegetables",
+            "rawFish": "false"
+        },
+        "Seafood Udon": {
+            "price": "$14.95",
+            "description": "udon noodle & broth, assorted seafood, vegetables",
+            "rawFish": "false"
+        },
+        "Shrimp Tempura Udon": {
+            "price": "$13.95",
+            "description": "udon noodle & broth, shrimp tempura",
+            "rawFish": "false"
+        }
+    },
+    "Korean Dishes": {
+        "Kimchi Fried Rice": {
+            "price": "$13.95",
+            "description": "topped sunny side egg",
+            "rawFish": "false"
+        },
+        "Bulgogi": {
+            "price": "$15.95",
+            "description": "Korean seasoned beef with rice",
+            "rawFish": "false"
+        },
+        "Japanese Chirashi": {
+            "price": "$19.95",
+            "description": "assorted fish filet over rice",
+            "rawFish": "false"
+        },
+        "Asahi Sashimi Salad Bowl": {
+            "price": "$19.95",
+            "description": "assorted pieces of sashimi, lettuce, cucumber, carrot, cabbage, beet, & seaweed. Served over rice & spicy gochujang sauce",
+            "rawFish": "false"
+        }
+    },
+    "Yakisoba": {
+        "Vegetable Yakisoba": {
+            "price": "$10.95 ",
+            "description": "",
+            "rawFish": "false"
+        },
+        "Chicken Yakisoba": {
+            "price": "$12.95",
+            "description": "",
+            "rawFish": "false"
+        },
+        "Beef Yakisoba": {
+            "price": "$13.95",
+            "description": "",
+            "rawFish": "false"
+        },
+        "Shrimp Yakisoba": {
+            "price": "$14.95",
+            "description": "",
+            "rawFish": "false"
+        }
+    },
+    "Teriyaki": {
+        "Chicken Teriyaki": {
+            "price": "$14.95",
+            "description": "",
+            "rawFish": "false"
+        },
+        "Salmon Teriyaki": {
+            "price": "$19.95",
+            "description": "",
+            "rawFish": "false"
+        },
+        "Beef Teriyaki": {
+            "price": "$17.95",
+            "description": "",
+            "rawFish": "false"
+        },
+        "Tonkatsu": {
+            "price": "$16.95",
+            "description": "fried pork cutlet",
+            "rawFish": "false"
+        }
+    },
+    "Fried Rice": {
+        "Vegetable Fried Rice": {
+            "price": "$9.95",
+            "description": "",
+            "rawFish": "false"
+        },
+        "Beef Fried Rice": {
+            "price": "$13.95",
+            "description": "",
+            "rawFish": "false"
+        },
+        "Chicken Fried Rice": {
+            "price": "$12.95",
+            "description": "",
+            "rawFish": "false"
+        },
+        "Shrimp Fried Rice": {
+            "price": "$14.95",
+            "description": "",
+            "rawFish": "false"
+        }
+    }
+}

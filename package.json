@@ -9,8 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@stripe/react-stripe-js": "^2.1.1",
+    "@stripe/stripe-js": "^1.54.1",
     "autoprefixer": "10.4.14",
     "framer-motion": "^10.12.16",
+    "google-map-react": "^2.2.1",
     "next": "13.4.6",
     "postcss": "8.4.24",
     "react": "18.2.0",

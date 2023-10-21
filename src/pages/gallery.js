@@ -4,7 +4,7 @@
 const Gallery = () => {
 
     return(
-        <div>
+        <div className="w-full h-full bg-white">
 
         </div>
     )

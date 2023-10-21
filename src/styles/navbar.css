@@ -4,20 +4,27 @@
 
 .navbar-body {
   @apply w-full h-16
-    bg-white
-    border-b-2 border-sushiGreen
+    text-white
     flex items-center
-    relative;
+    absolute z-10
+    ;
 }
 
 .mobile-menu-button {
   @apply w-12 h-12
     flex items-center justify-center
-    absolute right-0;
+    absolute right-0
+    
+    lg:hidden
+    xl:hidden
+    2xl:hidden
+    ;
 }
 
 .navbar-logo-holder {
-  @apply ml-3;
+  @apply 
+  ml-10 flex items-center
+  ;
 }
 
 .mobile-menu-body {
@@ -32,9 +39,10 @@
 }
 
 .mobile-menu-item {
-  @apply flex items-center justify-center
-    w-full h-12
-    text-xl;
+  @apply flex items-center pl-5
+   text-3xl
+    w-full h-12 mb-3
+    ;
 }
 
 .mobile-menu-item-inner {
@@ -54,4 +62,59 @@
 .menu-profile-label {
   @apply mr-3
     text-white;
+}
+
+
+.cart-body {
+  @apply
+  ml-4 relative
+  ;
+}
+
+.cart-count {
+  @apply
+  text-white
+  absolute flex items-center justify-center
+  w-4 h-4 bg-red-400
+  top-0
+  rounded-full
+  text-xs
+  ;
+  right: -5px;
+}
+
+
+.browser-nav-body {
+
+  @apply
+  h-full
+  absolute right-0
+  
+
+  sm:hidden
+  md:hidden
+  lg:flex
+  xl:flex
+  2xl:flex
+  ;
+}
+
+.browser-nav-item {
+  @apply
+  
+  w-24 h-full  mx-5 cursor-pointer 
+  overflow-hidden relative
+  flex items-center justify-center
+  
+  ;
+}
+
+.mobile-nav-menu-body {
+  /* background:-webkit-radial-gradient(50% 0%,150% 80%, #4ade80ff 10%,#27313d 80%); */
+  @apply
+  w-[60%] h-full
+  /* bg-darkBlue */
+  absolute right-0 z-0
+  ;
+
 }

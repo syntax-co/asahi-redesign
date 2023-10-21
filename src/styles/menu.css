@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.quick-scroll-menu {
+    @apply
+    w-full h-10 flex items-center overflow-x-auto
+    ;
+}
+
+.quick-scroll-menu::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  .catergory-tile-body {
+
+    /* @apply
+    
+    ; */
+  }
+
+.menu-main-body {
+    @apply
+    w-full h-full bg-sushiGreen
+    ;
+}
+
+.mobile-menu-body {
+    @apply
+    w-full
+    relative z-0
+    overflow-x-hidden
+    overflow-y-hidden
+    sm:block
+    md:block
+    lg:hidden
+    xl:hidden
+    2xl:hidden
+    ;
+}
+
+.browser-menu-body {
+    @apply
+    w-full h-full
+    bg-darkBlue
+    items-center justify-center
+    flex-col
+
+    sm:hidden
+    md:hidden
+    lg:flex
+    xl:flex
+    2xl:flex
+    ;
+}
+
+#menu-background {
+    background:-webkit-radial-gradient(50% 0%,70% 120%, #4ade80ff 10%,#27313d 80%);
+}
+
+
+
+
+
+
+
+
+
+/* 
+███╗   ███╗███████╗██████╗ ██╗ █████╗ 
+████╗ ████║██╔════╝██╔══██╗██║██╔══██╗
+██╔████╔██║█████╗  ██║  ██║██║███████║
+██║╚██╔╝██║██╔══╝  ██║  ██║██║██╔══██║
+██║ ╚═╝ ██║███████╗██████╔╝██║██║  ██║
+╚═╝     ╚═╝╚══════╝╚═════╝ ╚═╝╚═╝  ╚═╝
+                                       */
+@media (min-width: 250px) {
+    #menu-background {
+        background:-webkit-radial-gradient(50% 0%,150% 80%, #4ade80ff 10%,#27313d 80%);
+    }
+}
+
+
+@media (min-width: 768px) {
+    #menu-background {
+        background:-webkit-radial-gradient(50% 0%,70% 120%, #4ade80ff 10%,#27313d 80%);
+    }
+}
+
+
+@media (min-width: 1024px) {
+    #menu-background {
+        background:-webkit-radial-gradient(50% 0%,70% 120%, #4ade80ff 10%,#27313d 80%);
+    }
+}
+
+
+@media (min-width: 1280px) {
+    #menu-background {
+
+    }
+}
+
+
+@media (min-width: 1536px) {
+    #menu-background {
+        background:-webkit-radial-gradient(50% 0%,70% 120%, #4ade80ff 10%,#27313d 80%);
+    }
+}

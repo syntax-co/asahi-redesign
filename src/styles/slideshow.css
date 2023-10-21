@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.slideshow-main-body {
+  @apply
+  w-full h-2/6 relative
+
+  sm:w-full sm:h-2/6
+  md:w-[500px] md:h-[700px]
+  lg:w-[500px] lg:h-[700px]
+  xl:w-5/6 xl:h-[500px]
+  2xl:w-5/6 2xl:h-[500px]
+  ;
+
+}
+
+
 .slideshow-image-layer {
   @apply h-full w-full absolute;
   background-size: cover;

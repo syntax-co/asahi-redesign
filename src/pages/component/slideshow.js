@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion, useAnimationControls } from "framer-motion";
 import {
   MdOutlineArrowBackIos,
@@ -43,18 +43,21 @@ const SlideshowArrows = ({ change, position }) => {
   );
 };
 
+const Dot = ({dotPosition,cPosition}) => {
+    
+  return (
+    <motion.div
+      className="w-2 h-2 mx-1 rounded-lg "
+      initial={{ backgroundColor: "#ffffff" }}
+      animate={{
+        backgroundColor: dotPosition == cPosition ? "#77cc6d" : "#ffffff",
+      }}
+    ></motion.div>
+  );
+};
+
 const SlideShowDots = ({ images, position }) => {
-  const Dot = (dotPosition, cPosition) => {
-    return (
-      <motion.div
-        className="w-2 h-2 mx-1 rounded-lg  bg-white"
-        initial={{ backgroundColor: "#ffffff" }}
-        animate={{
-          backgroundCOlor: dotPosition == cPosition ? "#77cc6d" : "#ffffff",
-        }}
-      ></motion.div>
-    );
-  };
+  
 
   return (
     <div className="w-full h-4 absolute bottom-0 flex items-center justify-center">
@@ -72,8 +75,11 @@ const Slideshow = ({ images }) => {
   const layerTwoControls = useAnimationControls();
   const [currentLayer, setCurrentLayer] = useState(0);
   const [currentPosition, setCurrentPosition] = useState(0);
+  const slideInterval = useRef(null);
+  const [slideTrigger,setSlideTrigger] = useState(0);
 
   const changePosition = (direction) => {
+    
     if (direction == "right") {
       if (currentPosition == images.length - 1) {
         setCurrentPosition(0);
@@ -90,12 +96,19 @@ const Slideshow = ({ images }) => {
   };
 
   const MoveShow = (direction) => {
+    
     if (currentLayer == 0) {
       layerOneControls.start({
         opacity: 0,
+        transition:{
+          duration:.5
+        }
       });
       layerTwoControls.start({
         opacity: 1,
+        transition:{
+          duration:.5
+        }
       });
 
       setTimeout(() => {
@@ -118,9 +131,15 @@ const Slideshow = ({ images }) => {
     } else if (currentLayer == 1) {
       layerTwoControls.start({
         opacity: 0,
+        transition:{
+          duration:.5
+        }
       });
       layerOneControls.start({
         opacity: 1,
+        transition:{
+          duration:.5
+        }
       });
 
       setTimeout(() => {
@@ -144,8 +163,30 @@ const Slideshow = ({ images }) => {
     changePosition(direction);
   };
 
+  
+
+  const startSlide = () => {
+    slideInterval.current = setInterval(() => {
+      setSlideTrigger(prev => prev+1);
+    },5000)
+  }
+
+  useEffect(() => {
+    if (!(slideTrigger == 0)) {
+      MoveShow('right');
+    }
+  },[slideTrigger])
+
+  useEffect(() => {
+    startSlide();
+
+    return () => {
+      clearInterval(slideInterval.current);
+    }
+  },[])
+
   return (
-    <div className="w-full h-2/6 relative">
+    <div className="slideshow-main-body">
       <motion.div
         id="item-one"
         className="slideshow-image-layer"
@@ -167,7 +208,7 @@ const Slideshow = ({ images }) => {
       ></motion.div>
 
       <SlideshowArrows change={MoveShow} />
-      <SlideShowDots postion={currentPosition} images={images} />
+      <SlideShowDots position={currentPosition} images={images} />
     </div>
   );
 };

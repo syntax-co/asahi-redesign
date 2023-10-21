@@ -5,6 +5,11 @@
 @import url("./navbar.css");
 @import url("./hompage.css");
 @import url("./slideshow.css");
+@import url('./menu.css');
+@import url('./cart.css');
+@import url('./payment.css');
+@import url('./location.css');
+
 @font-face {
   font-family: "quicksand";
   src: url("./fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
@@ -28,5 +33,87 @@
   }
 }
 
-body {
+html {
+  scroll-behavior: smooth;
 }
+
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  /* overflow-x: hidden; */
+  /* background-color: #27313d; */
+  background: linear-gradient(-80deg ,#44576e,#27313d)
+}
+
+body::-webkit-scrollbar {
+  width:7px;
+  background: #27313d;
+}
+
+
+body::-webkit-scrollbar-track {
+  background-color: #00000000;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background:white;
+}
+
+
+html {
+  width: 100%;
+  height:100vh;
+  /* scroll-behavior: smooth; */
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.styled-scrollbar::-webkit-scrollbar {
+  width:7px;
+  
+}
+
+.styled-scrollbar::-webkit-scrollbar-track {
+  background-color: #20202055;
+  border-radius: 10px;
+}
+
+.styled-scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background:white;
+}
+
+
+.styled-scrollbar-x::-webkit-scrollbar {
+  height:7px;
+  
+}
+
+.styled-scrollbar-x::-webkit-scrollbar-track {
+  background-color: #20202055;
+  border-radius: 10px;
+}
+
+.styled-scrollbar-x::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background:white;
+}
+
+
+/* ripple on click effe */

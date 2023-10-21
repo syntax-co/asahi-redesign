@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.location-main-body {
+    background:-webkit-radial-gradient(50% 0%,70% 120%, #4ade80ff 10%,#27313d 80%);
+
+    @apply
+    w-full h-full 
+    ;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 250px) {
+    .location-main-body {
+        background:-webkit-radial-gradient(50% 0%,150% 80%, #4ade80ff 10%,#27313d 80%);
+    }
+}
+
+
+@media (min-width: 768px) {
+    .location-main-body {
+        background:-webkit-radial-gradient(50% 0%,70% 120%, #4ade80ff 10%,#27313d 80%);
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .location-main-body {
+        background:-webkit-radial-gradient(50% 0%,70% 120%, #4ade80ff 10%,#27313d 80%);
+    }
+}
+
+
+@media (min-width: 1280px) {
+    .location-main-body {
+
+    }
+}
+
+
+@media (min-width: 1536px) {
+    .location-main-body {
+        background:-webkit-radial-gradient(50% 0%,70% 120%, #4ade80ff 10%,#27313d 80%);
+    }
+}
